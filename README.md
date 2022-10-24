@@ -63,6 +63,7 @@ We’ll now create and activate a conda environment (inside Ubuntu) with all the
 Whenever you restart your computer, or close and open Ubuntu again, you will have to run that second command (conda activate pytorch). Now install the correct version of pytorch:
 
     conda install pytorch==1.10 torchvision torchaudio cudatoolkit==11.1 -c pytorch -c conda-forge
+    sudo apt-get update && apt-get install libgl1
 
 Type y whenever prompted. 
 
